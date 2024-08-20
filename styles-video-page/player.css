@@ -1,0 +1,311 @@
+.video-player {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 1200px;
+}
+
+.video-player-img {
+  width: 1280px;
+  border-radius: 14px;
+}
+
+.further {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sections {
+  display: flex;
+  flex-direction: row;
+  max-width: 1280px;
+  width: 1280px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video-left-section {
+  display: flex;
+  flex-direction: row;
+  margin-right: 300px;
+}
+
+.video-right-section {
+  flex: 1;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 0px;
+  max-width: 565px;
+}
+
+.channel-info-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* icons */
+
+.like-icon,
+.dislike-icon,
+.share-icon,
+.download-icon,
+.clip-icon,
+.more-options-icon {
+  width: 24px;
+}
+
+.channel-picture {
+  margin-right: 12px;
+}
+
+.channel-icon {
+  width: 40px;
+  border-radius: 20px;
+}
+
+.title {
+  margin-top: 13px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* buttons */
+
+.subscribe-button {
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 0px 14px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 23456px;
+  cursor: pointer;
+  height: 36px;
+  transition:
+    opacity 0.15s,
+    background-color 0.15s,
+    color 0.15s;
+}
+
+.subscribe-button:hover {
+  opacity: 0.85;
+}
+
+.subscribe-button:active {
+  background-color: white;
+  color: black;
+}
+
+.options-button {
+  border: none;
+  border-radius: 1000px;
+  background-color: rgb(245, 245, 245);
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.options-button:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.more-options-icon {
+  margin-top: 1px;
+  width: 16px;
+}
+
+.like-button,
+.share-button-container,
+.download-button-container,
+.clip-button-container,
+.options-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.like-button p,
+.share-button-container p,
+.download-button-container p,
+.clip-button-container p,
+.options-button p {
+  margin: 0;
+  margin-left: 1px;
+}
+
+.like-button {
+  border: none;
+  border-radius: 1000px;
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+  padding: 6px 16px;
+}
+
+.like-button:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.like-button:hover .dislike-icon {
+  border-left: 0.5px solid rgb(211, 211, 211);
+}
+
+.dislike-icon {
+  padding-left: 14px;
+  border-left: 0.5px solid rgb(214, 214, 214);
+}
+
+.like-button p {
+  margin-right: 14px;
+}
+
+/* other */
+
+.subs-count {
+  margin: 0;
+  color: rgb(96,96,96);
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.stats {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.share-button-container {
+  border: none;
+  border-radius: 1000px;
+  background-color: rgb(245, 245, 245);
+  padding: 6px 16px;
+  cursor: pointer;
+}
+
+.share-button-container:hover {
+  background-color:rgb(235, 235, 235);
+}
+
+.download-button-container {
+  border: none;
+  border-radius: 1000px;
+  background-color: rgb(245, 245, 245);
+  padding: 6px 16px;
+  cursor: pointer;
+}
+
+.download-button-container:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.download-icon {
+  width: 17px;
+  margin-right: 5px;
+}
+
+.clip-button-container {
+  border: none;
+  border-radius: 1000px;
+  background-color: rgb(245, 245, 245);
+  padding: 6px 16px;
+  cursor: pointer;
+}
+
+.clip-button-container:hover {
+  background-color: rgb(235, 235, 235)
+}
+
+.clip-icon {
+  width: 17px;
+  margin-right: 5px;
+}
+
+.video-player-img-container {
+  position: relative;
+}
+
+.play-icon {
+  background-color: rgba(82, 82, 82, 0.95);
+  width: 100px;
+  height: 68px;
+  position: absolute;
+  left: 590px;
+  right: 590px;
+  top: 325px;
+  bottom: 325px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition:
+    background-color 0.15s,
+    opacity 0.15s;
+}
+
+.play-icon:hover {
+  background-color: red;
+  opacity: 1;
+}
+
+.play-icon-svg {
+  width: 25px;
+  position: absolute;
+  left: 37.5px;
+  right: 37.5px;
+  top: 21.5px;
+  bottom: 21.5px;
+}
+
+/**/
+
+.like-button,
+.dislike-button-container,
+.share-button-container,
+.download-button-container,
+.clip-button-container {
+  position: relative;
+}
+
+.like-button .tooltip,
+.dislike-button-container .tooltip,
+.share-button-container .tooltip,
+.download-button-container .tooltip,
+.clip-button-container .tooltip {
+  position: absolute;
+  bottom: -50px;
+  left: 33px;
+  z-index: 2000;
+  font-size: 12px;
+  background-color: gray;
+  color: white;
+  padding: 11px 8px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.like-button-container:hover .tooltip,
+.dislike-button-container:hover .tooltip,
+.share-button-container:hover .tooltip,
+.download-button-container:hover .tooltip,
+.clip-button-container:hover .tooltip {
+  opacity: 1;
+}
+
+.dislike-button-container .tooltip {
+  bottom: -56px;
+  left: -12px;
+}
+
+.like-button .tooltip {
+  left: 0px;
+}
+
+.like-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

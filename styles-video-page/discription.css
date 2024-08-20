@@ -1,0 +1,169 @@
+.discription {
+  width: 1280px;
+  max-width: 1280px;
+  margin-left: 24px;
+}
+
+.d-premium,
+.song-title1 {
+  color: rgb(6, 95, 212);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.song-title2 {
+  font-size: 14px;
+}
+
+.d-type {
+  color: #606060;
+}
+
+.song-number {
+  color: #606060;
+  font-size: 12px;
+}
+
+.d-rights-icon {
+  width: 13px;
+}
+
+.d-stats {
+  font-weight: 500;
+}
+
+.d-music {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 16px;
+  border-top: 6px solid rgb(214, 214, 214);
+  margin-top: 16px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 14px;
+}
+
+.discription {
+  display: flex;
+  flex-direction: column;
+  column-gap: 15px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 12px;
+  margin-top: 12px;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.d-stats,
+.d-info {
+  margin-left: 12px;
+}
+
+.d-stats {
+  margin-top: 10px;
+}
+
+.d-message {
+  padding-top: 4px;
+}
+
+.d-songs {
+  display: flex;
+  flex-direction: row;
+  margin-left: 12px;
+  margin-bottom: 3px;
+}
+
+.song-one {
+  margin-right: 16px;
+}
+
+.song-one,
+.song-two {
+  width: 415px;
+  background-color: rgb(226, 226, 226);
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.d-music-info {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.d-creator,
+.d-album,
+.d-rights {
+  display: flex;
+  flex-direction: row;
+  padding: 12px 0px;
+  border-bottom: 1px solid rgb(214, 214, 214);
+  justify-content: space-between;
+  max-width: 1280px;
+  margin-right: 12px;
+}
+
+.d-type {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.d-premium {
+  padding: 12px 0px;
+}
+
+.song-title1,
+.d-premium span {
+  cursor: pointer;
+}
+
+.about-markiplier {
+  margin-left: 12px;
+  border-top: 6px solid rgb(214, 214, 214);
+  padding: 16px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 50px;
+  max-width: 1256px;
+}
+
+.d-profile-icon {
+  width: 72px;
+  border-radius: 50px;
+}
+
+.d-channel-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.d-markiplier-stats {
+  font-size: 14px;
+}
+
+.d-channel-info {
+  margin-left: 12px;
+}
+
+.show-button {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.d-stats,
+.d-info {
+  font-size: 14px;
+}
+
+.d-creator-name,
+.d-album-name {
+  font-size: 14px;
+}
